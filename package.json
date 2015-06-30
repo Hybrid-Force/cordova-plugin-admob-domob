@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-admob-domob",
+  "version": "0.0.1",
+  "description": "Cordova plugin for AdMob adapter to Domob Ads",
+  "cordova": {
+    "id": "cordova-plugin-admob-domob",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "admob",
+    "ad",
+    "mediation",
+    "domob"
+  ],
+  "author": "Derek Hsu",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-admob-domob" version="0.0.1">
+  <name>AdMob Mediation Adapter for Domob Ads</name>
+
+  <dependency id="cordova-plugin-admobpro"/>
+  <dependency id="cordova-plugin-domob" url="https://github.com/Hybrid-Force/cordova-plugin-domob.git"/>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <header-file src="src/ios/GADDomobExtras.h" />
+    <source-file src="src/ios/libAdapterDomob.a" framework="true" />
+  </platform>
+
+  <!-- Android -->
+  <platform name="android">
+    <source-file src="src/android/AdMobMediationAdapter.jar" target-dir="libs" />
+  </platform>
+</plugin>
